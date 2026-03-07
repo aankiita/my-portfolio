@@ -57,7 +57,7 @@ const skills = [
     category: "Data & Infrastructure", 
     icon: <Database size={20} className="text-orange-400" />, 
     items: [
-      "FAISS", "AstraDB", "Neo4j", "MongoDB", "PostgreSQL", 
+      "FAISS", "AstraDB", "Neo4j", "MongoDB", 
       "Docker", "Git", "Linux", "REST APIs"
     ] 
   }
@@ -105,7 +105,7 @@ const projects = [
   },
   {
     title: "Collaboration Compiler",
-    desc: "Real-time online code editor allowing multiple users to code together in synchronized rooms.",
+    desc: "Real-time online code editor allowing multiple users to code together in synchronized rooms in any programming language(c/c++,java,javascript,python).",
     tech: ["React", "Socket.io", "Node.js", "Express"],
     link: "https://github.com/aankiita/Collaboration-Compiler",
     type: "Web"
