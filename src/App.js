@@ -13,7 +13,7 @@ const profile = {
   role: "GenAI Engineer | Full Stack Developer",
   bio: "B.Tech Computer Science student at VIT-AP (CGPA: 9.37). I specialize in bridging the gap between complex AI models and scalable web applications, with a focus on RAG pipelines, NVIDIA NIM microservices, and MERN stack development.",
   social: {
-    linkedin: "https://www.linkedin.com/in/ankita-yadav",
+    linkedin: "https://www.linkedin.com/in/ankita-yadav-202327btech/",
     github: "https://github.com/aankiita",
     email1: "https://mail.google.com/mail/?view=cm&fs=1&to=abcankitayadav@gmail.com",
     email2: "https://mail.google.com/mail/?view=cm&fs=1&to=ankita.23bce7218@vitapstudent.ac.in"
