@@ -90,8 +90,8 @@ const projects = [
   },
   {
     title: "Wanderlust",
-    desc: "A full-featured travel booking platform inspired by Airbnb. Includes user authentication, review systems, and interactive map integrations.",
-    tech: ["Node.js", "Express", "MongoDB", "Mapbox API", "EJS"],
+    desc: " A travel booking platform featuring secure user authentication. Users can add listings, post reviews, and search locations via an interactive map. Includes robust authorization where only the original creator can edit or delete their listings.",
+    tech: ["Node.js", "Express", "MongoDB", "Mapbox API", "EJS","Middlewares"],
     link: "https://github.com/aankiita/WANDERLUST",
     live: "https://wanderlust-qfja.onrender.com/listings",
     type: "Web"
@@ -113,7 +113,7 @@ const projects = [
   },
   {
     title: "Collaboration Compiler",
-    desc: "Real-time online code editor allowing multiple users to code together in synchronized rooms in any programming language(c/c++,java,javascript,python).",
+    desc: "Real-time online code editor allowing multiple users to code together in synchronized rooms in any programming language.",
     tech: ["React", "Socket.io", "Node.js", "Express"],
     link: "https://github.com/aankiita/Collaboration-Compiler",
     type: "Web"
@@ -127,8 +127,8 @@ const projects = [
   },
   {
     title: "InvestoX",
-    desc: "A full-stack stock trading platform with real-time portfolio management and analytics.",
-    tech: ["React.js", "Node.js", "MongoDB", "Tailwind"],
+    desc: "A comprehensive full-stack stock trading platform featuring secure user authentication. Users can buy and sell stocks,and analyze market trends through interactive graph visualizations for individual companies. Also includes dedicated sections detailing the app's mission and founder.",
+    tech: ["React.js", "Node.js", "MongoDB", "Tailwind","Restful API","Middlewares"],
     link: "https://github.com/aankiita/InvestoX",
     type: "Web"
   },
@@ -151,13 +151,37 @@ const projects = [
 ];
 
 const certificates = [
-  { title: "Udemy NLP+Generative AI ", issuer: "Udemy", date: "Mar 2026" },
-  { title: "Oracle Generative AI Professional", issuer: "Oracle", date: "Jul 2025" },
-  { title: "MERN Full Stack Developer", issuer: "Apna College", date: "Dec 2025" },
-  { title: "DSA using Java", issuer: "Infosys Springboard", date: "May 2025" },
-  { title: "Data Science & Analytics", issuer: "HP LIFE", date: "Aug 2025" }
+  { 
+    title: "Udemy NLP+Generative AI", 
+    issuer: "Udemy", 
+    date: "Mar 2026",
+    link: "https://www.udemy.com/certificate/UC-4192343b-da44-480e-9246-96098c8522ae/" 
+  },
+  { 
+    title: "Oracle Generative AI Professional", 
+    issuer: "Oracle", 
+    date: "Jul 2025",
+    link: "https://www.linkedin.com/in/ankita-yadav-202327btech/overlay/Certifications/2066476876/treasury/?profileId=ACoAAFah0eMBvjm6BAdh-jDJJAzHvmNdSB1-CXo" 
+  },
+  { 
+    title: "MERN Full Stack Developer", 
+    issuer: "Apna College", 
+    date: "Dec 2025",
+    link: "https://www.linkedin.com/in/ankita-yadav-202327btech/overlay/Certifications/608941415/treasury/?profileId=ACoAAFah0eMBvjm6BAdh-jDJJAzHvmNdSB1-CXo" 
+  },
+  { 
+    title: "DSA using Java", 
+    issuer: "Infosys Springboard", 
+    date: "May 2025",
+    link: "https://drive.google.com/file/d/1rX6iChlFpxFyXrlTsuSpmU57y0KT6CE8/view" 
+  },
+  { 
+    title: "Data Science & Analytics", 
+    issuer: "HP LIFE", 
+    date: "Aug 2025",
+    link: "https://drive.google.com/file/d/1kKkoQqZcpzzJazjnjRlH3m000vzGUYXN/view" 
+  }
 ];
-
 // --- MAIN COMPONENT ---
 
 function App() {
