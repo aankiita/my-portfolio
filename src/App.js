@@ -281,7 +281,6 @@ function App() {
           ))}
         </div>
       </section>
-
       {/* Certifications Section */}
       <section id="certificates" className="section-container">
         <h2 className="section-title">Certifications</h2>
@@ -289,10 +288,16 @@ function App() {
           {certificates.map((cert, index) => (
             <div key={index} className="cert-item">
               <div className="cert-info">
-                <h4>{cert.title}</h4>
+                <h4>
+                  <a href={cert.link} target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+                    {cert.title}
+                  </a>
+                </h4>
                 <p>{cert.issuer} • {cert.date}</p>
               </div>
-              <Zap size={20} className="text-yellow-500" />
+              <a href={cert.link} target="_blank" rel="noreferrer" style={{ color: 'inherit' }}>
+                <ExternalLink size={20} className="text-yellow-500" />
+              </a>
             </div>
           ))}
         </div>
