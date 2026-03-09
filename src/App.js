@@ -97,6 +97,14 @@ const projects = [
     type: "Web"
   },
   {
+    title: "MathGPT",
+    desc: "AI-powered math solver utilizing LangChain Agents, LLMMathChain, Wikipedia API, and Groq to evaluate mathematical expressions and answer complex queries.",
+    tech: ["LangChain", "Groq API", "Streamlit", "Python"],
+    link: "https://github.com/aankiita/MathGPT",
+    live: "https://mathgpt-9pfdbgxy2wrwnrrg7labgr.streamlit.app/",
+    type: "AI/ML"
+  },
+  {
     title: "YouTube Blog Generator",
     desc: "Multi-agent pipeline using CrewAI to research and convert video transcripts into SEO-optimized articles.",
     tech: ["CrewAI", "LangChain", "Python"],
