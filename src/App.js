@@ -42,7 +42,7 @@ const skills = [
     icon: <Layers size={20} className="text-indigo-400" />, 
     items: [
       "Transformers (Attention Is All You Need)", "CNN", "RNN", "LSTM", "GRU", 
-      "Bidirectional RNN", "ANN", "Backpropagation", "PyTorch", "TensorFlow", "YOLOv8"
+      "Bidirectional RNN", "ANN", "Backpropagation", "PyTorch", "YOLOv8"
     ] 
   },
   { 
@@ -133,6 +133,7 @@ const projects = [
     type: "Web"
   },
   {
+<<<<<<< HEAD
     title: "RNN Movie Review Sentiment Analysis",
     desc: "A web app using a Simple RNN neural network in TensorFlow/Keras to classify IMDB movie reviews as positive or negative with real-time prediction scoring.",
     tech: ["TensorFlow", "Keras", "RNN", "Streamlit"],
@@ -146,6 +147,37 @@ const projects = [
     tech: ["ANN", "Python", "Streamlit", "Machine Learning"],
     link: "https://github.com/aankiita/ANN-Classification-churn",
     live: "https://ann-classification-churn-w6c5spkt6srkm5tjpndd9q.streamlit.app/",
+=======
+    title: "Student Life Management Platform",
+    desc: "AI-powered productivity and student management platform built with React, Node.js, Express, MongoDB, LangChain, and Groq. Provides activity tracking, personalized study planning, expense management, lost & found management, and an intelligent AI academic assistant.",
+    tech: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "LangChain",
+      "Groq",
+      "JWT",
+      "Tailwind CSS"
+    ],
+    link: "https://github.com/aankiita/Lost_and_Found_Web_Technology/",
+    type: "AI/Web"
+  },
+  {
+    title: "Intelligent Vision: Person Re-Identification & Face Analytics",
+    desc: "Advanced AI surveillance and person tracking system combining YOLOv8 detection, DeepSORT tracking, and ArcFace recognition. Uses FAISS vector search for biometric matching and provides a React dashboard with FastAPI backend for real-time analytics.",
+    tech: [
+      "YOLOv8",
+      "DeepSORT",
+      "ArcFace",
+      "InsightFace",
+      "FAISS",
+      "FastAPI",
+      "React",
+      "Computer Vision"
+    ],
+    link: "https://github.com/aankiita/Re-id",
+>>>>>>> 4c153f0 (Added new AI ML projects to portfolio)
     type: "AI/ML"
   }
 ];
