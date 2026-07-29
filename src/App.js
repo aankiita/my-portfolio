@@ -133,21 +133,6 @@ const projects = [
     type: "Web"
   },
   {
-<<<<<<< HEAD
-    title: "RNN Movie Review Sentiment Analysis",
-    desc: "A web app using a Simple RNN neural network in TensorFlow/Keras to classify IMDB movie reviews as positive or negative with real-time prediction scoring.",
-    tech: ["TensorFlow", "Keras", "RNN", "Streamlit"],
-    link: "https://github.com/aankiita/Movie-Review-Sentiment_Analysis_RNN",
-    live: "https://movie-review-sentimentanalysisrnn-8figxubuawdykuk8ebw7vq.streamlit.app/",
-    type: "AI/ML"
-  },
-  {
-    title: "ANN Bank Customer Churn Predictor",
-    desc: "Machine Learning web application built with Artificial Neural Networks (ANN) to predict bank customer exit probability based on financial and demographic data.",
-    tech: ["ANN", "Python", "Streamlit", "Machine Learning"],
-    link: "https://github.com/aankiita/ANN-Classification-churn",
-    live: "https://ann-classification-churn-w6c5spkt6srkm5tjpndd9q.streamlit.app/",
-=======
     title: "Student Life Management Platform",
     desc: "AI-powered productivity and student management platform built with React, Node.js, Express, MongoDB, LangChain, and Groq. Provides activity tracking, personalized study planning, expense management, lost & found management, and an intelligent AI academic assistant.",
     tech: [
@@ -177,7 +162,6 @@ const projects = [
       "Computer Vision"
     ],
     link: "https://github.com/aankiita/Re-id",
->>>>>>> 4c153f0 (Added new AI ML projects to portfolio)
     type: "AI/ML"
   }
 ];
