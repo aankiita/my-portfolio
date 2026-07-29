@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
 
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.app-container {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 /* --- RESET & BASICS --- */
 :root {
   --bg-dark: #0f172a;
@@ -92,19 +101,74 @@ body {
 .tag { background: #334155; font-size: 0.85rem; padding: 4px 10px; border-radius: 4px; color: #e2e8f0; }
 
 /* --- PROJECTS GRID --- */
-.projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
-.project-card {
-  background: var(--bg-card); padding: 2rem; border-radius: 12px;
-  border: 1px solid #334155; transition: 0.3s;
-  display: flex; flex-direction: column;
+/* --- PROJECTS GRID --- */
+.projects-grid { 
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  gap: 2rem; 
 }
-.project-card:hover { transform: translateY(-5px); border-color: var(--accent); }
-.project-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
-.project-links a { color: var(--text-secondary); margin-left: 10px; transition: 0.3s; }
-.project-links a:hover { color: var(--accent); }
-.project-desc { color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 1.5rem; flex-grow: 1; }
-.project-tech span { font-size: 0.8rem; font-family: monospace; color: var(--accent); margin-right: 10px; }
 
+.project-card {
+  background: var(--bg-card);
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid #334155;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;   /* important */
+  min-width: 0;
+}
+
+.project-card:hover { 
+  transform: translateY(-5px); 
+  border-color: var(--accent); 
+}
+
+.project-header { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  margin-bottom: 1rem; 
+}
+
+.project-links a { 
+  color: var(--text-secondary); 
+  margin-left: 10px; 
+  transition: 0.3s; 
+}
+
+.project-links a:hover { 
+  color: var(--accent); 
+}
+
+.project-desc { 
+  color: var(--text-secondary); 
+  font-size: 0.95rem; 
+  margin-bottom: 1.5rem; 
+  flex-grow: 1; 
+}
+
+
+/* FIX TECH STACK OVERFLOW */
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  width: 100%;
+}
+
+.project-tech span { 
+  font-size: 0.8rem;
+  font-family: monospace;
+  color: var(--accent);
+  background: #334155;
+  padding: 5px 10px;
+  border-radius: 5px;
+
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
 /* --- CERTIFICATES --- */
 .cert-list { display: flex; flex-direction: column; gap: 1rem; max-width: 800px; margin: 0 auto; }
 .cert-item {
